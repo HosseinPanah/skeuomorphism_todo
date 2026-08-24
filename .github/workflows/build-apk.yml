@@ -20,10 +20,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Setup Gradle
-        uses: gradle/actions/setup-gradle@v3
-
-      - name: Configure Gradle caching
-        uses: gradle/actions/gradle-build-action@v3
+        uses: gradle/actions/setup-gradle@v6
 
       - name: Build with Gradle
         run: ./gradlew assembleDebug
