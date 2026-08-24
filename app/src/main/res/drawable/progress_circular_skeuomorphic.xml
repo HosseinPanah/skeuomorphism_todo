@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background track -->
+    <item android:id="@android:id/background">
+        <shape android:shape="ring"
+            android:innerRadiusRatio="3"
+            android:thickness="@dimen/progress_stroke_width"
+            android:useLevel="false">
+            <solid android:color="@color/progress_track" />
+        </shape>
+    </item>
+    
+    <!-- Progress indicator -->
+    <item android:id="@android:id/progress">
+        <shape android:shape="ring"
+            android:innerRadiusRatio="3"
+            android:thickness="@dimen/progress_stroke_width"
+            android:useLevel="true">
+            <solid android:color="@color/progress_indicator" />
+        </shape>
+    </item>
+    
+    <!-- Completed state overlay (optional green indicator) -->
+    <item android:id="@android:id/secondaryProgress" android:visible="false">
+        <shape android:shape="ring"
+            android:innerRadiusRatio="3"
+            android:thickness="@dimen/progress_stroke_width"
+            android:useLevel="true">
+            <solid android:color="@color/progress_complete" />
+        </shape>
+    </item>
+</layer-list>

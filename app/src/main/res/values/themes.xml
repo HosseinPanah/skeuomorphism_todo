@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.SkeuomorphismTodo" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorScheme">@style/ColorScheme.SkeuomorphismTodo</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="android:statusBarColor">@color/near_black</item>
+        <item name="android:navigationBarColor">@color/near_black</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+    </style>
+
+    <style name="ColorScheme.SkeuomorphismTodo" parent="">
+        <item name="primary">@color/muted_blue</item>
+        <item name="primaryContainer">@color/surface_raised</item>
+        <item name="secondary">@color/muted_green</item>
+        <item name="secondaryContainer">@color/surface_raised</item>
+        <item name="tertiary">@color/muted_red</item>
+        <item name="tertiaryContainer">@color/surface_raised</item>
+        <item name="background">@color/background_dark</item>
+        <item name="surface">@color/surface_default</item>
+        <item name="surfaceVariant">@color/surface_raised</item>
+        <item name="surfaceTint">@color/muted_blue</item>
+        <item name="onPrimary">@color/white</item>
+        <item name="onSecondary">@color/white</item>
+        <item name="onTertiary">@color/white</item>
+        <item name="onBackground">@color/text_primary</item>
+        <item name="onSurface">@color/text_primary</item>
+        <item name="onSurfaceVariant">@color/text_secondary</item>
+        <item name="outline">@color/dark_gray</item>
+        <item name="outlineVariant">@color/medium_dark_gray</item>
+        <item name="scrim">@color/overlay_dark</item>
+        <item name="error">@color/muted_red</item>
+        <item name="onError">@color/white</item>
+        <item name="errorContainer">@color/surface_raised</item>
+        <item name="onErrorContainer">@color/muted_red</item>
+    </style>
+
+    <!-- Light Theme -->
+    <style name="Theme.SkeuomorphismTodo.Light" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/background_light</item>
+        <item name="android:statusBarColor">@color/background_light</item>
+        <item name="android:navigationBarColor">@color/background_light</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:textColor">@color/text_primary_light</item>
+    </style>
+
+    <!-- Text Styles -->
+    <style name="TextAppearance.SkeuomorphismTodo.Heading">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">@font/inter_medium</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <style name="TextAppearance.SkeuomorphismTodo.Subheading">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+    </style>
+
+    <style name="TextAppearance.SkeuomorphismTodo.Body">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:lineHeight">24sp</item>
+    </style>
+
+    <style name="TextAppearance.SkeuomorphismTodo.BodySecondary">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+    </style>
+
+    <style name="TextAppearance.SkeuomorphismTodo.Caption">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="Widget.SkeuomorphismTodo.Button">
+        <item name="android:background">@drawable/bg_button_skeuomorphic</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/inter_medium</item>
+        <item name="android:paddingHorizontal">24dp</item>
+        <item name="android:paddingVertical">12dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="Widget.SkeuomorphismTodo.Button.Small">
+        <item name="android:background">@drawable/bg_button_skeuomorphic_small</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/inter_medium</item>
+        <item name="android:paddingHorizontal">16dp</item>
+        <item name="android:paddingVertical">8dp</item>
+    </style>
+
+    <!-- Card Styles -->
+    <style name="Widget.SkeuomorphismTodo.Card">
+        <item name="android:background">@drawable/bg_card_neomorphic</item>
+        <item name="cardBackgroundColor">@color/surface_raised</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <!-- Toggle Styles -->
+    <style name="Widget.SkeuomorphismTodo.Toggle">
+        <item name="android:button">@null</item>
+        <item name="trackTint">@color/toggle_track</item>
+        <item name="thumbTint">@color/toggle_thumb</item>
+    </style>
+
+    <!-- Progress Styles -->
+    <style name="Widget.SkeuomorphismTodo.Progress">
+        <item name="android:indeterminate">false</item>
+        <item name="android:progressDrawable">@drawable/progress_circular_skeuomorphic</item>
+    </style>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Inset shadow effect -->
+    <item android:insetLeft="2dp" android:insetRight="2dp" android:insetTop="2dp" android:insetBottom="2dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/card_corner_radius" />
+            <solid android:color="@color/shadow_soft" />
+            <alpha android:alpha="0.15" />
+        </shape>
+    </item>
+    
+    <!-- Card background -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/card_corner_radius" />
+            <solid android:color="@color/surface_inset" />
+        </shape>
+    </item>
+</layer-list>

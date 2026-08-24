@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spacing System -->
+    <dimen name="spacing_xxs">2dp</dimen>
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+    <dimen name="spacing_2xl">48dp</dimen>
+    <dimen name="spacing_3xl">64dp</dimen>
+
+    <!-- Corner Radii -->
+    <dimen name="corner_radius_xs">4dp</dimen>
+    <dimen name="corner_radius_sm">8dp</dimen>
+    <dimen name="corner_radius_md">12dp</dimen>
+    <dimen name="corner_radius_lg">16dp</dimen>
+    <dimen name="corner_radius_xl">24dp</dimen>
+    <dimen name="corner_radius_full">100dp</dimen>
+
+    <!-- Elevation / Shadow -->
+    <dimen name="elevation_none">0dp</dimen>
+    <dimen name="elevation_sm">2dp</dimen>
+    <dimen name="elevation_md">4dp</dimen>
+    <dimen name="elevation_lg">8dp</dimen>
+
+    <!-- Button Dimensions -->
+    <dimen name="button_height_sm">36dp</dimen>
+    <dimen name="button_height_md">48dp</dimen>
+    <dimen name="button_height_lg">56dp</dimen>
+    <dimen name="button_min_width">88dp</dimen>
+
+    <!-- Card Dimensions -->
+    <dimen name="card_corner_radius">@dimen/corner_radius_lg</dimen>
+    <dimen name="card_padding">@dimen/spacing_md</dimen>
+    <dimen name="card_margin">@dimen/spacing_sm</dimen>
+
+    <!-- Toggle Dimensions -->
+    <dimen name="toggle_width">56dp</dimen>
+    <dimen name="toggle_height">32dp</dimen>
+    <dimen name="toggle_thumb_size">24dp</dimen>
+    <dimen name="toggle_track_radius">16dp</dimen>
+
+    <!-- Progress Indicator -->
+    <dimen name="progress_size_sm">24dp</dimen>
+    <dimen name="progress_size_md">48dp</dimen>
+    <dimen name="progress_size_lg">96dp</dimen>
+    <dimen name="progress_stroke_width">3dp</dimen>
+
+    <!-- LED Indicator -->
+    <dimen name="led_size">6dp</dimen>
+    <dimen name="led_size_sm">4dp</dimen>
+
+    <!-- Divider -->
+    <dimen name="divider_height">1dp</dimen>
+
+    <!-- Text Sizes -->
+    <dimen name="text_size_xs">10sp</dimen>
+    <dimen name="text_size_sm">12sp</dimen>
+    <dimen name="text_size_md">14sp</dimen>
+    <dimen name="text_size_lg">16sp</dimen>
+    <dimen name="text_size_xl">18sp</dimen>
+    <dimen name="text_size_2xl">20sp</dimen>
+    <dimen name="text_size_3xl">24sp</dimen>
+    <dimen name="text_size_4xl">32sp</dimen>
+
+    <!-- Icon Sizes -->
+    <dimen name="icon_size_xs">16dp</dimen>
+    <dimen name="icon_size_sm">20dp</dimen>
+    <dimen name="icon_size_md">24dp</dimen>
+    <dimen name="icon_size_lg">32dp</dimen>
+    <dimen name="icon_size_xl">48dp</dimen>
+
+    <!-- Navigation -->
+    <dimen name="nav_height">64dp</dimen>
+    <dimen name="nav_icon_size">24dp</dimen>
+
+    <!-- Dashboard -->
+    <dimen name="dashboard_progress_size">200dp</dimen>
+    <dimen name="dashboard_greeting_margin_top">48dp</dimen>
+
+    <!-- Task Card -->
+    <dimen name="task_card_height">64dp</dimen>
+    <dimen name="task_completion_button_size">32dp</dimen>
+
+    <!-- Habit Card -->
+    <dimen name="habit_card_height">72dp</dimen>
+
+    <!-- Recovery Card -->
+    <dimen name="recovery_day_text_size">72sp</dimen>
+
+    <!-- Urge Screen -->
+    <dimen name="urge_timer_size">120dp</dimen>
+
+    <!-- Padding -->
+    <dimen name="padding_screen">@dimen/spacing_lg</dimen>
+    <dimen name="padding_component">@dimen/spacing_md</dimen>
+    <dimen name="padding_small">@dimen/spacing_sm</dimen>
+</resources>

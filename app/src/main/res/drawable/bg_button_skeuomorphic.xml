@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <!-- Pressed state - inset shadow -->
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/corner_radius_md" />
+                    <solid android:color="@color/button_pressed" />
+                    <padding android:bottom="2dp" android:left="2dp" android:right="2dp" android:top="2dp" />
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/corner_radius_md" />
+                    <solid android:color="@color/surface_raised" />
+                    <!-- Inset shadow effect -->
+                    <item android:bottom="2dp" android:left="2dp" android:right="2dp" android:top="2dp">
+                        <shape android:shape="rectangle">
+                            <corners android:radius="@dimen/corner_radius_md" />
+                            <solid android:color="@color/shadow_soft" />
+                        </shape>
+                    </item>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <!-- Default state - raised -->
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/corner_radius_md" />
+                    <solid android:color="@color/button_enabled" />
+                    <!-- Outer shadow -->
+                    <padding android:bottom="0dp" android:left="0dp" android:right="0dp" android:top="2dp" />
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/corner_radius_md" />
+                    <solid android:color="@color/surface_raised" />
+                    <!-- Top highlight -->
+                    <item android:top="0dp" android:bottom="2dp" android:left="0dp" android:right="0dp">
+                        <shape android:shape="rectangle">
+                            <corners android:radius="@dimen/corner_radius_md" />
+                            <solid android:color="@color/shadow_highlight" />
+                            <alpha android:alpha="0.05" />
+                        </shape>
+                    </item>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

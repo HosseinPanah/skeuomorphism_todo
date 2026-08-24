@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Skeuomorphism Todo</string>
+    
+    <!-- Greetings -->
+    <string name="good_morning">GOOD MORNING</string>
+    <string name="good_afternoon">GOOD AFTERNOON</string>
+    <string name="good_evening">GOOD EVENING</string>
+    <string name="welcome_back">Welcome back</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard_ready">Ready to make today better?</string>
+    <string name="dashboard_today">TODAY</string>
+    <string name="dashboard_progress">%d%%</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">HOME</string>
+    <string name="nav_tasks">TASKS</string>
+    <string name="nav_habits">HABITS</string>
+    <string name="nav_recovery">RECOVERY</string>
+    <string name="nav_insights">INSIGHTS</string>
+    
+    <!-- Tasks -->
+    <string name="tasks_title">TASKS</string>
+    <string name="tasks_add">ADD TASK</string>
+    <string name="tasks_complete">COMPLETE</string>
+    <string name="tasks_placeholder">What needs to be done?</string>
+    <string name="tasks_priority_high">HIGH</string>
+    <string name="tasks_priority_medium">MEDIUM</string>
+    <string name="tasks_priority_low">LOW</string>
+    
+    <!-- Habits -->
+    <string name="habits_title">HABITS</string>
+    <string name="habits_add">ADD HABIT</string>
+    <string name="habits_streak">%d DAY STREAK</string>
+    <string name="habits_complete">COMPLETED</string>
+    <string name="habits_placeholder">What habit to track?</string>
+    
+    <!-- Recovery -->
+    <string name="recovery_title">RECOVERY</string>
+    <string name="recovery_day">DAY %d</string>
+    <string name="recovery_strong">%d DAYS STRONG</string>
+    <string name="recovery_on_track">ON TRACK</string>
+    <string name="recovery_reset">RESET</string>
+    <string name="recovery_start_again">START AGAIN</string>
+    <string name="recovery_setback">One setback doesn\'t erase your progress.</string>
+    
+    <!-- Urge Management -->
+    <string name="urge_title">I HAVE AN URGE</string>
+    <string name="urge_message">Take a breath.\nYou don\'t have to act on this feeling.</string>
+    <string name="urge_start_timer">START 10 MIN</string>
+    <string name="urge_timer_running">URGE TIMER</string>
+    <string name="urge_completed">URGE PASSED</string>
+    <string name="urge_resisted">You resisted the urge.</string>
+    
+    <!-- Relapse -->
+    <string name="relapse_title">RELAPSE</string>
+    <string name="relapse_message">It\'s okay. Tomorrow is a new day.</string>
+    
+    <!-- Analytics -->
+    <string name="analytics_title">INSIGHTS</string>
+    <string name="analytics_tasks_completed">TASKS COMPLETED</string>
+    <string name="analytics_habits_streak">HABIT STREAK</string>
+    <string name="analytics_recovery_days">RECOVERY DAYS</string>
+    <string name="analytics_urges_resisted">URGES RESISTED</string>
+    <string name="analytics_weekly_progress">WEEKLY PROGRESS</string>
+    <string name="analytics_level">LEVEL %d</string>
+    <string name="analytics_xp">%d / %d XP</string>
+    
+    <!-- XP System -->
+    <string name="xp_title">PROGRESS</string>
+    <string name="xp_level_up">LEVEL UP!</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">SETTINGS</string>
+    <string name="settings_dark_mode">DARK MODE</string>
+    <string name="settings_notifications">NOTIFICATIONS</string>
+    <string name="settings_about">ABOUT</string>
+    
+    <!-- Actions -->
+    <string name="action_save">SAVE</string>
+    <string name="action_cancel">CANCEL</string>
+    <string name="action_delete">DELETE</string>
+    <string name="action_edit">EDIT</string>
+    <string name="action_confirm">CONFIRM</string>
+    
+    <!-- Time -->
+    <string name="time_minutes">%d MIN</string>
+    <string name="time_hours">%d HOURS</string>
+    <string name="time_days">%d DAYS</string>
+    
+    <!-- Empty States -->
+    <string name="empty_tasks">No tasks yet. Add one to get started.</string>
+    <string name="empty_habits">No habits tracked. Add one to build discipline.</string>
+    <string name="empty_recovery">Start your recovery journey today.</string>
+    <string name="empty_analytics">No data yet. Complete tasks to see insights.</string>
+</resources>

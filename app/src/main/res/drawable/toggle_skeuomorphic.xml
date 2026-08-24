@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <layer-list>
+            <!-- Active state - blue indicator -->
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/toggle_track_radius" />
+                    <solid android:color="@color/muted_blue" />
+                    <size android:width="@dimen/toggle_width" android:height="@dimen/toggle_height" />
+                </shape>
+            </item>
+            <item android:gravity="end|center_vertical" android:right="4dp">
+                <shape android:shape="oval">
+                    <solid android:color="@color/white" />
+                    <size android:width="@dimen/toggle_thumb_size" android:height="@dimen/toggle_thumb_size" />
+                    <!-- Thumb shadow -->
+                    <item android:bottom="1dp" android:right="1dp">
+                        <shape android:shape="oval">
+                            <solid android:color="@color/shadow_soft" />
+                            <alpha android:alpha="0.2" />
+                        </shape>
+                    </item>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <!-- Inactive state -->
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/toggle_track_radius" />
+                    <solid android:color="@color/toggle_track" />
+                    <size android:width="@dimen/toggle_width" android:height="@dimen/toggle_height" />
+                    <!-- Track shadow -->
+                    <item android:top="1dp" android:bottom="1dp" android:left="1dp" android:right="1dp">
+                        <shape android:shape="rectangle">
+                            <corners android:radius="@dimen/toggle_track_radius" />
+                            <solid android:color="@color/shadow_soft" />
+                            <alpha android:alpha="0.1" />
+                        </shape>
+                    </item>
+                </shape>
+            </item>
+            <item android:gravity="start|center_vertical" android:left="4dp">
+                <shape android:shape="oval">
+                    <solid android:color="@color/surface_raised" />
+                    <size android:width="@dimen/toggle_thumb_size" android:height="@dimen/toggle_thumb_size" />
+                    <!-- Thumb highlight -->
+                    <item android:top="1dp" android:left="1dp">
+                        <shape android:shape="oval">
+                            <solid android:color="@color/shadow_highlight" />
+                            <alpha android:alpha="0.1" />
+                        </shape>
+                    </item>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>
