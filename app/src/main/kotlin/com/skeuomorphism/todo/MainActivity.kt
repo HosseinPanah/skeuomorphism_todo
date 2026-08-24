@@ -7,7 +7,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import com.skeuomorphism.todo.ui.AppTheme
+import com.skeuomorphism.todo.ui.SkeuomorphismAppTheme
 import com.skeuomorphism.todo.ui.SkeuomorphismTodoApp
 
 class MainActivity : ComponentActivity() {

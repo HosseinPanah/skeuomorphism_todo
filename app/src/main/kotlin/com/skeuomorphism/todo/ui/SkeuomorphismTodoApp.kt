@@ -17,6 +17,7 @@ import com.skeuomorphism.todo.ui.screens.HabitsScreen
 import com.skeuomorphism.todo.ui.screens.HomeScreen
 import com.skeuomorphism.todo.ui.screens.RecoveryScreen
 import com.skeuomorphism.todo.ui.screens.TasksScreen
+import com.skeuomorphism.todo.ui.SkeuomorphismAppTheme
 import com.skeuomorphism.todo.ui.theme.BackgroundDark
 
 @Composable
@@ -115,7 +116,7 @@ fun SkeuomorphismTodoApp() {
 @Preview(showBackground = true)
 @Composable
 fun SkeuomorphismTodoAppPreview() {
-    AppTheme {
+    SkeuomorphismAppTheme {
         SkeuomorphismTodoApp()
     }
 }

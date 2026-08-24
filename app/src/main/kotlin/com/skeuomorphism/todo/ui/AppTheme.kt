@@ -1,15 +1,14 @@
 package com.skeuomorphism.todo.ui
 
 import androidx.compose.runtime.Composable
-import com.skeuomorphism.todo.ui.theme.AppTheme
 
 @Composable
-fun AppTheme(
+fun SkeuomorphismAppTheme(
     darkTheme: Boolean = true,
     dynamicColor: Boolean = false,
     content: @Composable () -> Unit
 ) {
-    AppTheme(
+    com.skeuomorphism.todo.ui.theme.AppTheme(
         darkTheme = darkTheme,
         dynamicColor = dynamicColor,
         content = content
