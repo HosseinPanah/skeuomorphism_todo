@@ -26,7 +26,7 @@ APP_BASE_NAME=${0##*/}
 APP_HOME=${APP_HOME:-.}
 
 # Add default JVM options here.
-DEFAULT_JVM_OPTS='"-Xmx64m" "-Xms64m"'
+DEFAULT_JVM_OPTS="-Xmx64m -Xms64m"
 
 MAX_FD="maximum"
 
